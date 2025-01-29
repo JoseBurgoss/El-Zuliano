@@ -2,4 +2,5 @@ El Zuliano, una plataforma web de noticias creada con **React, HTML y CSS**, dis
 
 El Zuliano: News platform with React, HTML, and CSS. Includes registration, subscription, social media integration, real-time updates, and responsive design.
 
-![ZulianoPrvw](https://github.com/user-attachments/assets/aec83cf2-dc2f-470c-953c-c7e41053d5a4)
+![ZulianoPrvw](https://github.com/user-attachments/assets/cb7c7fd1-b0e2-480d-9f8d-7ab59b0de091)
+
