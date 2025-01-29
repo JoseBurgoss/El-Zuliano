@@ -1,0 +1,66 @@
+/* Home.module.css */
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 250px; /* Ajusta según necesidad */
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+.formTitle {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.inputField,
+.textAreaField {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.textAreaField {
+    height: 100px; /* Ajusta según necesidad */
+    resize: vertical; /* Permite al usuario ajustar la altura */
+}
+
+.submitButton {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submitButton:hover {
+    background-color: #0056b3;
+}
+
+.newsContainer {
+    margin-top: 20px;
+}
+
+.newsItem {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.newsTitle {
+    margin-bottom: 5px;
+}
+
+.newsContent {
+    margin-bottom: 10px;
+}
+
+.newsMedia {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover; /* Ajusta la imagen proporcionalmente */
+}
