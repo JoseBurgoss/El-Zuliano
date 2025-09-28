@@ -44,7 +44,7 @@ export default function Home() {
               <span className="loader"></span>
           ) : (
               <>
-                  <div className={styles.formContainer}>
+                  {/* <div className={styles.formContainer}>
                       <h2 className={styles.formTitle}>Agregar Noticia</h2>
                       <form onSubmit={handleSubmit}>
                           <input
@@ -66,7 +66,7 @@ export default function Home() {
                           />
                           <button className={styles.submitButton} type="submit">Agregar Noticia</button>
                       </form>
-                  </div>
+                  </div> */}
                   <div className={styles.newsContainer}>
                       <h2>Noticias</h2>
                       {news.map((newsItem, index) => (
